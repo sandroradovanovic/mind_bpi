@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+st-annotated-text
+treelib
+plotly
+plotly-express
+geopandas
