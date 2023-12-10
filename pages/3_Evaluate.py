@@ -326,7 +326,7 @@ result = result['BPI']
 _, cat_vals = dexi_bpi.get_alternatives_domain('BPI')
 colors = ['#AE0017', '#A35600', 'gray', '#7B8D00', 'lightgreen']
 
-annotated_text((f'{cat_vals[result]}', '', colors[result - 1]))
+annotated_text((f'{cat_vals[result]}', '', colors[result]))
 
 st.markdown('---')
 st.subheader('What-if Analysis')
@@ -353,7 +353,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Freedom of Expression and Media** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if foa > 0:
@@ -375,7 +375,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Freedom of Association** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if foass > 0:
@@ -397,7 +397,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Freedom of Assembly** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if elec > 0:
@@ -419,7 +419,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Elections** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if pp > 0:
@@ -441,7 +441,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Political Polarisation** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if soi > 0:
@@ -463,7 +463,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Subject to Intervention** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if coi > 0:
@@ -485,7 +485,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Conducting Intervention** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if ro > 0:
@@ -507,7 +507,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Regional Cooperation** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if gpi > 0:
@@ -529,7 +529,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Great Powers Intervention** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if sfvg > 0:
@@ -551,7 +551,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Support for Vulnerable Groups** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if red > 0:
@@ -573,7 +573,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Redistribution** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
             
     #####
     if health > 0:
@@ -595,7 +595,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Health** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if edu > 0:
@@ -617,7 +617,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Education** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if bordem > 0:
@@ -639,7 +639,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Border Demarcation** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if sov > 0:
@@ -661,7 +661,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Sovereignty** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if faat > 0:
@@ -683,7 +683,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Foreign Army and Troups** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if ecoout > 0:
@@ -705,7 +705,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Economic Outlook** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if socequ > 0:
@@ -727,7 +727,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Social Equity** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if unempl > 0:
@@ -749,7 +749,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Unemployment** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if poverty > 0:
@@ -771,7 +771,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Poverty** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if wealth_in > 0:
@@ -793,7 +793,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Wealth Inequality** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if corr > 0:
@@ -815,7 +815,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Level of Corruption** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if nrr > 0:
@@ -837,7 +837,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Natural Resources Resilience** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if oap > 0:
@@ -859,7 +859,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Outdoor Air Pollution** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if ggepc > 0:
@@ -881,7 +881,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Greenhouse gas emissions per capita** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if esp > 0:
@@ -903,7 +903,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Energy System Performance** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if ci > 0:
@@ -925,7 +925,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Conflict Intensity** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if cp > 0:
@@ -947,7 +947,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Conflict Potential** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if pt > 0:
@@ -969,7 +969,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Political Terror** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if veat > 0:
@@ -991,7 +991,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Violent Extremism and Terrorism** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if vcri > 0:
@@ -1013,7 +1013,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Violent Crime** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if org_cri > 0:
@@ -1035,7 +1035,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Organized Crime** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if state_cri > 0:
@@ -1057,7 +1057,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **State Crime** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if hamr > 0:
@@ -1079,7 +1079,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Human and Material Resources** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if jud_l > 0:
@@ -1101,7 +1101,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Judiciary Level** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if dem_gov > 0:
@@ -1123,7 +1123,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Democratic Governence** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if saf_perc > 0:
@@ -1145,7 +1145,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Safety Perceptions** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if tii > 0:
@@ -1167,7 +1167,7 @@ with st.expander('Leading to worse outcome'):
         
         if result != result_alt:
             st.markdown('Depreciation in **Safety Perceptions** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
 with st.expander('Leading to better outcome'):
     if foem < (foem_len - 1):
@@ -1188,7 +1188,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Freedom of Expression and Media** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if foa < (foa_len - 1):
@@ -1209,7 +1209,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Freedom of Association** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if foass < (foass_len - 1):
@@ -1230,7 +1230,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Freedom of Assembly** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if elec < (elec_len - 1):
@@ -1251,7 +1251,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Elections** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if pp < (pp_len - 1):
@@ -1272,7 +1272,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Political Polarisation** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if soi < (soi_len - 1):
@@ -1293,7 +1293,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Subject to Intervention** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     #####
     if coi < (coi_len - 1):
@@ -1314,7 +1314,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Conducting Intervention** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     if ro < (ro_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1334,7 +1334,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Regional Cooperation** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if gpi < (gpi_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1354,7 +1354,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Great Powers Intervention** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if sfvg < (sffg_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1374,7 +1374,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Support for Vulnerable Groups** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if red < (red_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1394,7 +1394,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Redistribution** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if health < (health_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1414,7 +1414,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Health** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if edu < (edu_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1434,7 +1434,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Education** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if bordem < (bordem_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1454,7 +1454,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Border Demarcation** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if sov < (sov_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1474,7 +1474,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Sovereignty** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if faat < (faat_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1494,7 +1494,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Foreign Army and Troups** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if ecoout < (ecoout_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1514,7 +1514,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Economic Outlook** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if socequ < (socequ_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1534,7 +1534,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Social Equity** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if unempl < (unempl_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1554,7 +1554,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Unemployment** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if poverty < (poverty_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1574,7 +1574,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Poverty** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if wealth_in < (wealth_in_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1594,7 +1594,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Wealth Inequality** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if corr < (corr_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1614,7 +1614,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Level of Corruption** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if nrr < (nrr_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1634,7 +1634,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Natural Resources Resilience** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if oap < (oap_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1654,7 +1654,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Outdoor Air Pollution** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if ggepc < (ggepc_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1674,7 +1674,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Greenhouse gas emissions per capita** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if esp < (esp_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1694,7 +1694,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Energy System Performance** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if ci < (ci_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1714,7 +1714,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Conflict Intensity** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if cp < (cp_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1734,7 +1734,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Conflict Potential** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if pt < (pt_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1754,7 +1754,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Political Terror** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     if veat < (veat_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1774,7 +1774,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Violent Extremism and Terrorism** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if vcri < (vcri_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1794,7 +1794,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Violent Crime** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if org_cri < (org_cri_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1814,7 +1814,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Organized Crime** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if state_cri < (state_cri_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1834,7 +1834,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **State Crime** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
     
     if hamr < (hamr_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1854,7 +1854,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Human and Material Resources** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if jud_l < (jud_l_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1874,7 +1874,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Judiciary Level** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if dem_gov < (dem_gov_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1894,7 +1894,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Democratic Governence** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
 
     if saf_perc < (saf_perc_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1914,7 +1914,7 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Safety Perceptions** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
         
     if tii < (tii_len - 1):
         alt = dexi_bpi.__model.alternative("New Alternative", 
@@ -1934,4 +1934,4 @@ with st.expander('Leading to better outcome'):
         result_alt = result_alt['BPI']
         if result != result_alt:
             st.markdown('Improvement in **Safety Perceptions** will result in Balkan Peace Index being:')
-            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt - 1]))
+            annotated_text((f'{cat_vals[result_alt]}', '', colors[result_alt]))
