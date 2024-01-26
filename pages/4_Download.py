@@ -12,6 +12,9 @@ st.title("BPI Download Section")
 
 st.markdown('This page aims to open the model and results to the broader audience for inspection and further research. Please find below the datasets and the DEX project.')
 
+year = st.selectbox('Please select year:', options=[2022, 2023], index=1)
+dexi_bpi.__model = dexi_bpi.select_year(year)
+
 @st.cache_resource
 def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
@@ -81,7 +84,7 @@ def get_file_content_as_base64(file_path):
         data = file.read()
     return data
 
-file_path = "model/BPI.dxi"
+file_path = f"model/BPI {year}.dxi"
 
 st.download_button(
     label="Download the DEXi file",

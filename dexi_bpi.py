@@ -3,7 +3,12 @@ import numpy as np
 
 import dexipy.dexi as dxi
 
-__model = dxi.read_dexi('model/BPI.dxi')
+__model = dxi.read_dexi('model/BPI 2023.dxi')
+
+def select_year(year):
+    model = dxi.read_dexi(f'model/BPI {year}.dxi')
+
+    return model
 
 countries = [__model.alternatives[i]['name'] for i in range(len(__model.alternatives))]
 attributes = [__model.attributes[i].name for i in range(len(__model.attributes))][1:]

@@ -19,6 +19,8 @@ with st.expander('DEX Model Explanation'):
     st.image('model/bpi_graph.png')
     st.markdown('A decision- or policy-maker should enter the values for the attributes that are at the bottom of the hierarchy (does not depend on other attributes) and the inference process will start from the bottom of the hierarchy until the top of the hierarchy where the Balkan Peace Index is. The inference process is done using the decision table rules, which are developed by domain experts within this project and are evaluated externaly by focus groups and interviews.')
 
+year = st.selectbox('Please select year:', options=[2022, 2023], index=1)
+dexi_bpi.__model = dexi_bpi.select_year(year)
 selected_country = st.selectbox(label='Please select a country', options=dexi_bpi.countries, index=0)
 
 st.markdown('---')
