@@ -12,7 +12,7 @@ st.title("BPI Download Section")
 
 st.markdown('This page aims to open the model and results to the broader audience for inspection and further research. Please find below the datasets and the DEX project.')
 
-year = st.selectbox('Please select year:', options=[2022, 2023], index=1)
+year = st.selectbox('Please select year:', options=[2022, 2023, 2024], index=2)
 dexi_bpi.__model = dexi_bpi.select_year(year)
 
 @st.cache_resource

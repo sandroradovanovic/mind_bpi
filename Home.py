@@ -27,7 +27,7 @@ with st.expander('The state of peace in Balkans'):
     st.markdown('The level of socio-economic development of the region is rated as medium. This represents the expected result considering the average values of socio-economic development for four regional actors (Albania, Montenegro, North Macedonia, and Serbia), two poor results (Bosnia and Herzegovina and Kosovo), and only one high outcome (Croatia)')
     st.markdown('Out of seven BPI domains, the Western Balkan Region performed excellently in only one – political violence. At the same time, it gained poor scores in domains of environmental sustainability and fighting crime and average scores in regional and international relations, state capacity, political pluralism, and socio-economic development. That is to say that the region can be considered highly peaceful in terms of negative peace or the absence of direct (armed) violence. Nonetheless, the level of positive peace (the absence of structural violence) remains between poor and average, although with an upward trend.')
 
-year = st.selectbox('Please select year:', options=[2022, 2023], index=1)
+year = st.selectbox('Please select year:', options=[2022, 2023, 2024], index=2)
 dexi_bpi.__model = dexi_bpi.select_year(year)
 
 # MAP

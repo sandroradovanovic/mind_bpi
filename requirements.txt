@@ -1,7 +1,8 @@
 streamlit
 numpy
 pandas
-st-annotated-text
+htbuilder==0.6.2
+st-annotated-text==4.0.1
 treelib
 plotly
 plotly-express

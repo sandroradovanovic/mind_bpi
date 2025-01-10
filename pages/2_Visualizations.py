@@ -11,7 +11,7 @@ st.title("BPI Visualizations")
 
 st.markdown('---')
 
-year = st.selectbox('Please select year:', options=[2022, 2023], index=1)
+year = st.selectbox('Please select year:', options=[2022, 2023, 2024], index=2)
 dexi_bpi.__model = dexi_bpi.select_year(year)
 
 domains = ['Political Pluralism', 'State Capacity', 'Fighting Crime', 'Socio-economic Development', 'Regional and International Relations', 'Environmental Sustainability', 'Political Pluralism']
